@@ -1,0 +1,50 @@
+body{
+    padding: 5px;
+}
+
+
+.counter{
+    text-align: center;
+}
+.content{
+    font-size: 2em;
+}
+.button_list::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.next_class{
+    float:  left;
+    text-align: right;
+    width: 50%;
+    padding-right: 30px;
+}
+
+.back_class{
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+
+.pie{
+    width: 350px;
+    height: 300px;
+}
+@media(max-width:769px) {
+}
+
+.audio_on{
+    font-size: 1.8em;
+    color :red;
+    font-weight: bolder;
+}
+
+.audio_off{
+    font-size: 1.5em;
+    color: blue;
+    font-weight: normal;
+}
